@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WEBSITE (3)</title>
+<style>
+    
+
+
+    .header {
+        justify-content: center;
+        display: flex;
+        font-size: x-large;
+        
+    }
+.LOGO {
+    display: flex;
+align-items: center;
+gap: 5%;
+}
+.MAINMENU {
+    display: flex;
+    list-style: none;
+    gap: 15%;
+}
+.MAINMENU {
+    padding: 10px 20px;
+    color: black;
+}
+.MAINMENU  a {
+    color: black;
+    font-size: large;
+}
+.MAINMENU li > .downdown {
+    display: none;
+    position: absolute;
+   background-image: linear-gradient(black,rgb(218, 167, 1));
+}
+
+.MAINMENU li:hover > .downdown {
+    display: flex;
+    position: absolute;
+}
+
+.downdown ul {
+    display: block;
+    position: static;
+}
+.head1 {
+    font-size: larger;
+   display: inline-block;
+   border-bottom:2px solid black ;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+}
+.banner:hover  {
+transform: scale(1.05);
+transition: all 0.5s ease;
+opacity: 50%;
+overflow: hidden;
+}
+.one {
+    text-align: center;
+   
+justify-content: center;
+font-size: large;
+font-style: oblique;
+color: rgb(248, 175, 17);
+border-bottom: 2px solid black;
+
+}
+.dishes {
+   align-items: flex-start;
+    display: flex;
+    gap: 100%;
+    list-style: none;
+    margin:0%;
+    width: 300px;
+   
+}
+.dishes h1 {
+    margin-top: 5px;
+   
+}
+.two {
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 187, 0);
+    border-bottom: 2px solid black;
+    font-style: italic;
+
+}
+.twoheadings {
+    display: flex;
+    justify-content: center;
+    border-bottom: 10px solid black;
+    
+
+}
+.four {
+    color: rgb(255, 187, 0);
+}
+.morelike {
+    justify-content: center;
+    display: flex;
+    border-bottom: 10px solid black;
+
+}
+.product {
+    display: flex;
+    gap: 90%;
+    list-style: none;
+    width: 300px;
+    
+
+}
+.aabb {
+    display: flex;
+    gap:90% ;
+list-style: none;
+ width: 300px;
+}
+.hheading {
+    display: flex;
+    justify-content: center;
+    border-bottom: 10px solid black;
+}
+.nd {
+    color:rgb(255, 187, 0); 
+
+}
+.images  li  {
+     display: flex;
+     
+
+
+
+}
+.mainfooter {
+    background-color: rgb(15, 13, 13);
+    background-image: linear-gradient(rgb(235, 162, 6),black)
+
+}
+
+
+.firstf  {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.secondf {
+    display: flex;
+    gap: 10%;
+    list-style: none;
+    margin-top: 5%;
+}
+.secondf li a {
+    color: rgb(253, 253, 253);
+    font-size: medium;
+    font-weight: 200;
+    text-decoration: none;
+}
+.para {
+    color: aliceblue;
+    font-size: large;
+    font-style: italic;
+    background-image: linear-gradient(rgb(235, 162, 6),black);
+    box-shadow: 10px 10px black;
+
+}
+</style>
+
+</head>
+<body >
+    <marquee scrollamount="20" behavior="alternate">
+    <ul class="header">
+<h1>FOOD FUSION</h1>
+</marquee>
+
+    </ul>
+<div class="LOGO">
+<img src="data:image/jpeg;base64,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">
+<div class="search bar">
+<input type="text" placeholder="AJJ KIA PAKANA H ? ">
+
+
+
+</div>
+
+<ul class="MAINMENU">
+<LI> <a href="ramadan.html">RAMADAN</a></LI>
+<LI><a href="drinks.html">DRINKS</a></LI>
+<LI>
+    <a href="dish/type.html">DISH/TYPE</a>
+    <div class="downdown">
+<ul >
+    <h1 class="head1">DISHES</h1>
+<LI><a href="#">PIZZAS</a></LI>
+<LI><a href="#">PASTAS</a></LI>
+<LI><a href="#">PARATHAS</a></LI>
+<LI><a href="#">KABABS</a></LI>
+
+</ul>
+<ul >
+    <h1 class="head1">SWEETS</h1>
+<LI><a href="#">CAKES</a></LI>
+<LI><a href="#">DESERTS</a></LI>
+<LI><a href="#">BROWNES</a></LI>
+<LI><a href="#">KIDS MENU</a></LI>
+
+
+</ul>
+</div>
+
+</LI>
+<LI>
+    <a href="lunch/dinner.html">LUNCH/DINNER</a>
+<div class="downdown">
+    <ul >
+    <h1 class="head1">LUNCH</h1>
+<LI><a href="#">GRAVYS</a></LI>
+<LI><a href="#">CHINESE</a></LI>
+<LI><a href="#">BURGERS</a></LI>
+<LI><a href="#">BIRIYANI&PULAO</a></LI>
+
+
+</ul>
+ <ul >
+    <h1 class="head1">LUNCH</h1>
+<LI><a href="#">SANDWICHES</a></LI>
+<LI><a href="#">SABZI(VEGETABLE)</a></LI>
+<LI><a href="#">SALAD</a></LI>
+<LI><a href="#">DAAL(DESI GHEE)</a></LI>
+
+
+</ul>
+</div>
+</LI>
+</ul>
+</div>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOzIji-VgaGedQko1RH9HYdlPw7cQBe1NMwY5d_bj-uA&s=10" width="100%" class="banner">
+<ul class="one">
+<h1>OUR RECIPES</h1>
+MostRecent // Most Viewed // MostFavourite // all
+</ul>
+<table border="18">
+    <tr>
+<td><img src="https://media.foodfusion.com/2026/09/3-sandwich-maker-recipes-.jpeg?v=1788503166" width="90%"></td>
+<TD><img src="https://media.foodfusion.com/2026/09/YT_02-1-300x225.jpg?v=1790581714" width="90%"></TD>
+<td><img src="https://media.foodfusion.com/2026/08/Airfryer-Cheese-Burst-Momos-3-300x225.jpg" width="90%"></td>
+</tr>
+</table>
+<ul class="two">
+<h1>TRENDING ON THE FOOD</h1>
+</ul>
+<ul class="dishes" >
+
+    <li>
+        <img src="https://media.foodfusion.com/2026/09/Bohri-Cutlets-Web-300x225.jpg?v=1789546324">
+        <h1>Bohri Chicken Cutlets</h1>
+    </li>
+
+    <li>
+        <img src="https://media.foodfusion.com/2026/09/Shahi-Paneer-Mughlai-Gravy-4-300x225.jpg?v=1789458027">
+        <h1>Shahi Paneer Mughlai White Gravy</h1>
+    </li>
+<li>
+        <img src="https://media.foodfusion.com/2025/06/Chatpatti-Mango-Ribs-Recipe-by-Food-Fusion-5-300x225.jpg?v=1749042312">
+        <h1>Chatpatti Mango Ribs</h1>
+    </li>
+<li>
+
+</ul>
+
+<ul class="dishes" >
+
+    <li>
+        <img src="https://media.foodfusion.com/2026/04/pink-layered-machiatto-4-300x225.jpg?v=1780738352">
+        <h1>Pink Layered Macchiato</h1>
+    </li>
+
+    <li>
+        <img src="https://media.foodfusion.com/2026/06/Lychee-Mango-ice-cream-4-300x225.jpg?v=1782278141">
+        <h1>Mango Lychee Ice Cream</h1>
+    </li>
+<li>
+        <img src="https://media.foodfusion.com/2021/11/1-300x225.jpg?v=1637240448">
+        <h1>Fish chilli fry</h1>
+    </li>
+    
+</ul>
+<ul class="twoheadings">
+<ul class="three">
+<h1>MORE</h1>
+</ul>
+<ul class="four">
+<h1>CATROGRIES</h1>
+</ul>
+</ul>
+<marquee scrollamount="15" behavior="alternate">
+<ul class="catorgries">
+<img src="https://media.foodfusion.com/2018/05/biryani-150x150.png">
+<img src="https://media.foodfusion.com/2018/05/burgersandwich-150x150.png">
+<img src="https://media.foodfusion.com/2018/05/breakfast-150x150.png">
+<img src="https://media.foodfusion.com/2018/05/desserts-150x150.png">
+<img src="https://media.foodfusion.com/2018/05/burgersandwich-150x150.png">
+<img src="https://media.foodfusion.com/2018/05/kababs-150x150.png">
+<img src="https://media.foodfusion.com/2018/05/everyday_cooking-150x150.png" >
+<img src="https://media.foodfusion.com/2018/05/everyday_cooking-150x150.png">
+
+
+
+</ul>
+</marquee>
+<ul class="morelike">
+<h1>You May Also Like</h1>
+</ul>
+
+<ul class="product">
+<li>
+    <img src="https://media.foodfusion.com/2021/04/Red-velvet-ice-cream-Recipe-by-Food-fusion-4-300x225.jpg?v=1618216753">
+    <h1>Red velvet Ice cream</h1>
+
+</li>
+
+<li>
+    <img src="https://media.foodfusion.com/2023/09/YT_02-300x225.jpg?v=1694775582">
+
+    <h1>Chocolate Pots de Crème</h1>
+</li>
+
+
+<li>
+    <img src="https://media.foodfusion.com/2017/05/ID-R00159-1-300x225.jpg?v=1587766546">
+
+    <h1>Machli ka Salan (Fish Curry)</h1>
+</li>
+
+
+</ul>
+<ul class="aabb">
+
+<li>
+    <img src="https://media.foodfusion.com/2021/10/YT-Grab-1-300x225.jpg?v=1633320958">
+
+
+    <h1>Southern Style Baked<br> Macaroni</h1>
+</li>
+
+<li>
+    <img src="https://media.foodfusion.com/2021/03/Strawberry-shake-milk-Recipe-by-Food-fusion-5-1-300x225.jpg?v=1617088900">
+
+
+
+    <h1>Strawberry Milk</h1>
+</li>
+
+<li>
+    <img src="https://media.foodfusion.com/2026/07/kadhi-web-300x225.jpg?v=1784878176">
+
+    <h1>Pakora Kadhi Chawal</h1>
+</li>
+
+
+</ul>
+
+<ul class="hheading">
+<ul class="md">
+<h1>Our Happy </h1>
+</ul>
+<ul class="nd">
+<h1>Cooking Partners</h1>
+</ul>
+</ul>
+
+<ul class="images">
+<li>
+    
+    <img src="https://media.foodfusion.com/2017/07/SHAN-logo-final-1.png">
+    <img src="https://media.foodfusion.com/2018/05/Lipton-logo.png">
+    <img src="https://media.foodfusion.com/2017/07/Tux-Tissues.png">
+    <img src="https://media.foodfusion.com/2017/07/Walls-Logo-1.png">
+    <img src="https://media.foodfusion.com/2017/07/Surf-Excel-Logo-1.png">
+    <img src="https://media.foodfusion.com/2017/07/Meat-One-Meat-Experts-Logo-1.png">
+
+</li>
+</ul>
+
+</ul>
+<footer>
+<ul  class="mainfooter">
+<ul class="firstf">
+<li><img  src="images-removebg-preview.png"></li>
+<li><img src="partner-logo-healthy-fusion-removebg-preview.png" width="89%"></li>
+
+</ul>
+<ul class="secondf">
+<li><a href="home.html">HOME</a></li>
+<li><a href="recipes.html">RECIPES</a></li>
+<li><a href="contact us .html">CONTACT US</a></li>
+<li><a href="about us.html">ABOUT US</a></li>
+<li><a href="PRIVACY.html">PRIVACY POLICY</a></li>
+<li><img src="https://foodfusion.com/wp-content/themes/food-fusion/assets/img/Food-Youtube-Channel-transparent_216px.png"></li>
+</ul>
+<ul class="para">
+    <h1>INFORMATION :</h1>
+<p>Food Fusion is all about redefining ‘Cooking’ for you! It’s the solution to <br>that never ending problem of preparing high quality delicious food and <br>
+    curtailing the eating out habits of your loved ones! With modernized<br>
+     and yet simple cooking methods, you are surely in for a flavorsome treat<br>
+      with our recipes <br>that will surely make you the next talk of the town!
+
+Being Pakistan’s first<br>
+ digital food video portal, we understand your difficulty of<br> being unable to execute that perfect dish just by going through those long<br>
+  recipes & ending up with something not as good as the one you see on paper<br>
+  . Hence, we make sure to get this covered by bringing in videos that will <br>help you prepare the same delicious food as you see in our videos. </p>
+</ul>
+</ul>
+
+
+
+
+
+
+    
+</footer>
+
+
+
+
+
+
+</body>
+</html>
